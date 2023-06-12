@@ -1,0 +1,34 @@
+.background {
+    background-color: rgb(153, 153, 153);
+}
+
+.imageContainer {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.imageCard img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mydogsContainer {
+    padding: 20px;
+}
+
+.mydogsImg {
+    border-radius: 10px;
+    max-width: 1440px;
+    height: 500px;
+}
+
+@media screen and (max-width: 740px) {
+    .imageContainer {
+        max-width: 740px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

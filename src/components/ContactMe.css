@@ -1,0 +1,40 @@
+.contactContainer {
+    margin: 20px;
+}
+
+.contactHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+.contactTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contactCardContainer {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.contactCard {
+    padding: 1rem;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 740px) {
+    .contactCardContainer {
+        max-width: 1440px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}
